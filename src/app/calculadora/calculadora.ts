@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-calculadora',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './calculadora.html',
   styleUrl: './calculadora.scss'
 })
