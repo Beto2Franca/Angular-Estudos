@@ -11,9 +11,22 @@
             <button type="submit">Somar</button>
         </form>
 
+        <div class="result-display" *ngIf="resultado">
+            <p>Seu resultado está abaixo:</p>
+        </div>
+
+        <!-- resultado !=0 && resultado != null && resultado !=undefined && resultado !== false -->
+        @if (resultado) { 
+
         <div class="result-display">
             <p>Resultado: <span id="result">{{ resultado }}</span></p>
             <!-- Soma: {{numero1+numero2}} -->
         </div>
+        }@else {
+            <div class="result-display">
+                <P>Seu resultado aparecera aqui!</P>
+            </div>
+        }
+
     </div>
 </div>
