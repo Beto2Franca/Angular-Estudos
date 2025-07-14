@@ -3,10 +3,11 @@ import { Component } from '@angular/core';
 // import {HelloWorldComponent} from './helloworld/helloworld.component'
 // import { Minhapagina } from "./minhapagina/minhapagina";
 import {Calculadora} from './calculadora/calculadora'
+import {ListaCompras} from './lista-compras/lista-compras'
 
 @Component({
   selector: 'app-root',
-  imports: [Calculadora],
+  imports: [ListaCompras],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
