@@ -24,6 +24,13 @@ export class ListaCompras {
         this.item = '';
 
     }
+
+    riscarItem(itemlista: ItemLista){
+      itemlista.comprado = !itemlista.comprado;
+    }
+    limparLista(){
+      this.lista = [];
+    }
 }
 
 
