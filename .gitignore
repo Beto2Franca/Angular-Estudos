@@ -1,0 +1,14 @@
+# Ignora node_modules em todas as subpastas
+**/node_modules/
+**/dist/
+**/.angular/cache
+
+# Ignora arquivos do sistema
+.DS_Store
+.idea
+.vscode
+*.log
+
+# Ignora configurações pessoais
+.env
+*.local
